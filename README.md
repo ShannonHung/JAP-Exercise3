@@ -1,7 +1,7 @@
 # JAP-Exercise3
 有幾個要注意的點
 1. Let’s also set the ==cascade to `CascadeType.ALL`== for `List<Plant> plants` in Delivery.java, to make it easier for us to persist everything at once for testing.
-> 幹這很重要，不然的話delivery新增可是plant那邊都不會有變動，也不會更新幹! 忘記改了，之前教學是寫delete，一定要記得改成ALL
+> 這很重要，不然的話delivery新增，可是plant那邊都不會有變動，也不會更新! 忘記改了，之前教學是寫delete，一定要記得改成ALL
 
 2. NamedQueries有幾項要注意，在註解裡面
 ```java
